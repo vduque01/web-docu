@@ -5,9 +5,6 @@
         <CBox font-family="body" as="main">
           <CReset />
           <CFlex>
-            <CBox h="100vh">
-              <GlobalNavigation />
-            </CBox>
             <Nuxt />
           </CFlex>
         </CBox>

@@ -1,3 +1,88 @@
-* {
-    border: 1px solid pink !important;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    font-family: 'Inter', sans-serif;
+    line-height: 150%;
+}
+
+
+.nav-item{
+    margin-bottom:12px;
+    & > a{
+        font-weight: 600 !important;
+        font-size: 16px;
+        
+    }
+
+    & > .nuxt-link-exact-active{
+        font-weight: 700 !important;
+    } 
+    
+
+    .nav-sub-items{
+        margin-top: 8px;
+        display: flex;
+        flex-direction: column;
+        gap:4px;
+        .nav-sub-item{
+            color: #979797;
+            a{
+                font-size: 13px;
+                padding: 4px 12px;
+            }
+            .nuxt-link-exact-active {
+                background-color: #F0F0F0;
+                border-radius: 9999px;
+                color: black
+              }
+        }
+    }
+}
+
+.group_logo{
+    background-color: #606060;
+    display: inline-block;
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+    border-radius: 99999px;
+    padding: 8px 24px ;
+}
+
+
+
+.global_nav{
+    display: flex;
+    gap: 24px;
+    a{
+        padding: 8px 24px ;
+        font-size: 19px;
+        font-weight: 600;
+        border-radius: 99999px;
+        outline: 1px solid #606060;
+        color: #606060;
+    }
+
+    #nav_telecinco.nuxt-link-exact-active {
+        background-color: #40BDEE;
+        outline: none;
+        color: white;
+      }
+    #nav_onda_cero.nuxt-link-exact-active {
+        background-color: #DAFF01;
+        outline: none;
+    }
+}
+
+.caja-contenido{
+    flex-grow: 1;
+    width:100%;
+    height: calc(100vh - 93.5px);
+    padding: 48px;
+    overflow: scroll;
+}
+
+.lateral_menu{
+    height: calc(100vh - 93.5px)
 }
