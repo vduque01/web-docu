@@ -4,6 +4,7 @@
 *{
     font-family: 'Inter', sans-serif;
     line-height: 150%;
+    scroll-behavior: smooth;
 }
 
 
@@ -81,6 +82,60 @@
     height: calc(100vh - 93.5px);
     padding: 48px;
     overflow: scroll;
+
+
+    .notion{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    h1{
+        font-size: 40px;
+        font-weight: bold;
+    }
+    h2{
+        font-size: 23px;
+        font-weight: 700;
+    }
+    h3{
+        font-size: 19px;
+        font-weight: 500;
+    }
+    .notion-quote{
+        font-size: 19px;
+    }
+    .notion-text{
+
+    }
+    .notion-asset-wrapper{
+        div{
+            padding: 48px 0 !important;
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            img{
+
+            }
+        }
+    }
+    .notion-list{
+        padding-left: 32px;
+    }
+
+    .nuxt-content{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        img{
+            padding: 48px 0 !important;
+        }
+    }
+    iframe{
+        width: 100%;
+        height: 400px;
+
+    }
 }
 
 .lateral_menu{

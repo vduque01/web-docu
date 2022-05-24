@@ -1,5 +1,5 @@
 ---
-title: Introduction
+title: Introducción Telecinco
 description: Learn how to use @nuxt/content.
 ---
 

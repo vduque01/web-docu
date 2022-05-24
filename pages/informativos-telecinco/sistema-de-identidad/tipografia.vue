@@ -1,3 +1,29 @@
+<!-- <template>
+  <CBox class="caja-contenido">
+    <NotionRenderer :blockMap="blockMap" />
+  </CBox>
+</template>
+
+<script>
+import { NotionRenderer, getPageBlocks } from "vue-notion";
+import { getNotionRoute } from "/lib/index.js";
+
+export default {
+  components: { NotionRenderer },
+  layout: "telecinco",
+  async asyncData() {
+    const blockMap = await getPageBlocks(
+     getNotionRoute("tipografiaTelecinco").id
+    );
+    return { blockMap };
+  },
+};
+</script>
+
+<style></style> -->
+
+
+
 <template>
   <CBox class="caja-contenido">
     <nuxt-content :document='page'/>
@@ -15,3 +41,4 @@ export default {
 </script>
 
 <style></style>
+
