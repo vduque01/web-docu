@@ -108,6 +108,10 @@
         "id": "Tono-de-voz-b1eb2edc05624b6e8ec5155162f175b8"
     },
     {
+        "name": "figma",
+        "id": "Figma-con-estructura-definida-a84a85ea99f7479c976b913d2aa9a579"
+    },
+    {
         "name": "tokensOndaCero",
         "id": "Tokens-1102b6da34c648acbcd2c23f2f092b85"
     },
@@ -123,4 +127,5 @@
         "name": "prototipoHiFi",
         "id": "Prototipo-hi-fi-8683e317be064ecf894fbb495363e11e"
     }
+    
 ]
