@@ -60,6 +60,10 @@ export default [
         route: "/onda-cero-podcast/sistema-de-diseño/",
         subpages: [
             {
+                title: "Figma con estructura",
+                route: "/onda-cero-podcast/sistema-de-diseño/figma",
+            },
+            {
                 title: "Tokens",
                 route: "/onda-cero-podcast/sistema-de-diseño/tokens",
             },
