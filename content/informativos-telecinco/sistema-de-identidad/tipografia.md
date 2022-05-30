@@ -1,8 +1,10 @@
 # Tipografía
 
-La tipografía corporativa será la Inter Telecinco. Es una versión modificada de la Inter, una tipografía diseñada por Ramus Andersson, diseñada cuidadosamente para pantalla. Tiene una gran altura de la x para aumentar la legibilidad, tanto en caja alta como en caja baja.
+La tipografía corporativa será la Inter Telecinco. Es una versión modificada de la Inter, una tipografía diseñada por Ramus Andersson, diseñada cuidadosamente para pantalla.
 
-Inter es una fuente disponible en Google Fonts, por lo que la licencia es Open Font. Esto nos permitiría modificar la fuente a nuestro para darle algunos elementos de identidad, como son algunas esquinas redondeadas en referencia a la identidad global de la cadena. Se permite hacer esto siempre que no se venda la fuente de origen.
+## Justificación de uso
+
+Tiene una gran altura de la x para aumentar la legibilidad, tanto en caja alta como en caja baja. Inter es una fuente disponible en Google Fonts, por lo que la licencia es Open Font. Esto nos permitiría modificar la fuente a nuestro para darle algunos elementos de identidad, como son algunas esquinas redondeadas en referencia a la identidad global de la cadena. Se permite hacer esto siempre que no se venda la fuente de origen.
 
 <div style="padding: 48px 0; display: flex; flex-direction: column; gap:12px">
 
@@ -28,15 +30,17 @@ Inter Bold ABCDEFGHIJKLMNÑOPQRSTUVWXYZabcdefghijklmnñopqrstuvwxtz1234567890
 
 </div>
 
-Este es el cambio que proponemos hacer en la tipografía para darle personalidad. Se le da rasgos distintivos a la Inter en algunas partes de los caracteres.
+Esta es la manera en la que se modificaría la Inter para formar la Inter Telecinco.
 
 <img src="/cambio.png" />
 
+## Justificación semántica
+
+La Inter es una tipografía muy neutra, que permite dar la información de manera imparcial.
+
 ## Estilos tipográficos
 
-Se propone una serie de estilos tipográficos que cubren la mayoría de necesidades
-
-La altura de la x de cada estilo se conforma en proporción al cuadrado base, que se subdivide en 18 partes. Así, un estilo tiene 14 fracciones de altura, otro 9, otro 8... De esta manera, la proporción entre los estilos se mantiene de un formato a otro, y se adapta a todos los soportes.
+Se propone una serie de estilos tipográficos que cubren la mayoría de necesidades.La altura de la x de cada estilo se conforma en proporción al cuadrado base, que se subdivide en 18 partes. Así, un estilo tiene 14 fracciones de altura, otro 9, otro 8... De esta manera, la proporción entre los estilos se mantiene de un formato a otro, y se adapta así a cada uno de ellos.
 
 Abajo vemos un ejemplo de como la la x tiene una altura de 9 sobre 18 fracciones.
 

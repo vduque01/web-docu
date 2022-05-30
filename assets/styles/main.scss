@@ -109,14 +109,23 @@
 
     }
     .notion-asset-wrapper{
+        padding: 48px 0 !important;
         div{
-            padding: 48px 0 !important;
+            padding: 0 !important;
             display: flex;
             width: 100%;
             justify-content: center;
             img{
 
             }
+            
+        }
+        figcaption{
+            margin-top: 16px;
+            display: flex;
+            justify-content: center;
+            color: grey;
+            font-size: 15px;
         }
     }
     .notion-list{

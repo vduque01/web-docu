@@ -70,6 +70,10 @@ export default [
             {
                 title: "Estructura y cuadrícula",
                 route: "/onda-cero-podcast/sistema-de-diseño/estructura",
+            },
+            {
+                title: "Prototipo hi-fi",
+                route: "/onda-cero-podcast/sistema-de-diseño/prototipo-hi-fi",
             }
         ]
     },
